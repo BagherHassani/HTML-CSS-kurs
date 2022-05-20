@@ -1,0 +1,235 @@
+
+.container.navbar{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.collapse navbar-collapse {
+    text-align:left;
+}
+#navbarSupportedContent{
+    position: absolute;
+   margin-left: 24rem;
+}
+
+.nav-item {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 0rem;
+    
+}
+.collapse navbar-collapse{
+
+}
+.nav-link  {
+    color:#252525!important;
+    margin-left: 15px;
+    margin-right: 19px;   
+}
+
+.navbar-nav .btn {
+   
+    margin-right: 0rem;
+    padding: 0rem;
+    height:auto;
+
+   
+}
+
+.nav-link i {
+    font-size: 1.5rem;
+    margin-left: 0px;
+    align-items: flex-start;
+}
+
+#showcase .showcase-text h1 {
+    font-family: 'Poppins', sans-serif ;
+    font-size: 700;
+   color: dark#252525;
+    font-size: 60px;   
+    margin-bottom: 36px;
+    width: 624px;
+    height: 134px;
+    margin-top: 15rem;
+
+}
+#showcase .showcase-text p {
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray#57647C;
+}
+#header .showcase-imge {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+#header .showcase-imge img {
+    position: absolute;
+    margin-top: -8rem;
+    margin-left: -5rem;
+    z-index: -1;
+}
+.showcase-pc{
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+
+.showcase-pc .img-pc img{
+    position: relative;
+    margin-top: 6rem;
+    margin-left: -6rem;
+}
+#showcase .btn-gradient-orange{
+    color: dark#252525;
+    font-weight: 500;
+    border-color:#FF6803; 
+    background: rgb(238,48,122);
+    background: linear-gradient(90deg, rgba(238,48,122,1) 0%, rgba(252,139,83,1) 100%);
+}
+
+container-text{
+   padding-top: prpcent;
+
+}
+.container-border{
+    width: 1170px;
+    height: 544px;
+    margin-left: 18rem;
+}
+
+.grid-container{
+   display: grid; 
+   grid-template-columns: 444px 261px 261px;
+    grid-template-rows: 237px 237px;
+    gap: 4rem;
+    font-family: 'Poppins', sans-serif;
+    grid-template-areas:  "H F M"
+                          "H S N";
+}                      
+ #box1 {grid-area: H;}
+ #box2 {grid-area: F; }
+ #box3 {grid-area: M; }
+ #box4 {grid-area: S; }
+ #box5 {grid-area: N; }
+
+ #container-process{
+   display: flex ;
+   margin-left: 5rem;
+   margin-top: 3rem;
+   
+ }
+ #container-process .get-started {
+   
+    margin-left: 5rem; 
+  }
+  #container-process .text-1{
+      margin-left: 5rem;
+  }
+ .get-started {
+     gap: 1rem;
+     display: grid;
+     grid-template-columns: 62px 354px ;
+     grid-template-rows: 33px 89px;
+     grid-template-areas:  "A B"
+                           "A C";
+
+ }
+ #sifra-box{grid-area: A;}
+ #get-box {grid-area: B; }
+ #box-donec {grid-area: C; }
+
+ .box-we  > img{
+     z-index: -1;
+     position: absolute;
+     margin-top: 10rem;
+    margin-left: 16rem;
+
+ }
+ .box-we h1{
+     text-align-last:center ;
+     font-family:'Poppins', sans-serif;
+     font-size: 48px;
+     font-weight: bold;   
+}
+.box-we p{
+    text-align-last:center ;
+    font-family:'Roboto', sans-serif;
+     font-size: 18px;
+     font-weight: regular;   
+    padding-top: 0%;
+}
+.peng-box{
+    width:970px ;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 116px 116px 118px 116px;
+    grid-template-rows: 116px 116px 118px 116px;
+    gap: 11rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    grid-template-areas:  "D E G J";                        
+}
+.box-middle{
+    margin-top: 5rem;
+}
+    .guestion-box {
+        border-color: red;
+        width: 630px;
+        height: 130px;
+    margin-left: 19rem;
+    
+    }
+    .guestion-box{
+        background-color:whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-color: #707070;
+        box-shadow:#F1F1F1 ;
+        border-radius: 4%;
+    }
+    .guestion-box .bt-n button{
+        background: rgb(238,48,122);
+        background: linear-gradient(90deg, rgba(238,48,122,1) 0%, rgba(252,139,83,1) 100%);
+    }
+    .guestion-box .have-any{
+        margin-left: 2rem;
+    }
+    .guestion-box .bt-n {
+         margin-right: 3rem;  
+         background-color: #F23779; 
+}
+.section-tre{
+    margin-top: 6rem;
+}
+.section-box{
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 370px 370px 370px;
+    gap: 1rem;
+    margin-left: 5rem;
+    grid-template-areas:  "D E G J";
+}
+
+.box-lastes {
+   text-align: center;
+}
+.box-lastes p{
+margin-top: 2rem;
+}
+.section-box .first-box{
+    background-color: whitesmoke;
+    width: 370px;
+    height: 565px;
+    margin-top: 3rem;
+}
+.first-box button{
+    background: rgb(238,48,122);
+    background: linear-gradient(90deg, rgba(238,48,122,1) 0%, rgba(252,139,83,1) 100%);
+    margin-left: 1rem;
+}
